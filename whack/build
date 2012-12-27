@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+set -e
+
+tar xzf chrpath-0.14.tar.gz
+cd chrpath-0.14
+./configure
+make

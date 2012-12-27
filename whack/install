@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+set -e
+
+INSTALL_DIR=$1
+
+mkdir -p $INSTALL_DIR/bin
+cp chrpath-0.14/chrpath $INSTALL_DIR/bin/chrpath
